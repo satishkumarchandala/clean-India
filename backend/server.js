@@ -36,6 +36,7 @@ connectDB();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
+  'https://clean-india-navy.vercel.app',
   'https://clean-india-eftqpg1q2-satishs-projects-dcf647d3.vercel.app',
   'https://clean-india.vercel.app',
   process.env.FRONTEND_URL
