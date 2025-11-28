@@ -1,0 +1,32 @@
+.not-found-container {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found-content h1 {
+  font-size: 120px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.not-found-content h2 {
+  font-size: 32px;
+  color: var(--dark);
+  margin-bottom: 15px;
+}
+
+.not-found-content p {
+  font-size: 18px;
+  color: var(--gray);
+  margin-bottom: 30px;
+}
