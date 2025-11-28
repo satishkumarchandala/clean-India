@@ -36,7 +36,8 @@ connectDB();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  process.env.FRONTEND_URL
+  process.env.FRONTEND_URL,
+  'FRONTEND_URL=https://clean-india-eftqpg1q2-satishs-projects-dcf647d3.vercel.app'
 ].filter(Boolean);
 
 const corsOptions = {
